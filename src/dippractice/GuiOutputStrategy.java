@@ -11,7 +11,7 @@ public class GuiOutputStrategy implements OutputStrategy {
     @Override
     public void outputMessage(String msg) {
     
-	JOptionPane.showMessageDialog(null, "Your message is: " + msg);
+	JOptionPane.showMessageDialog(null, "Your message is:\n" + "\"" + msg + "\"");
 	
     }
     
