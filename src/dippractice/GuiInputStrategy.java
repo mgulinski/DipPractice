@@ -4,6 +4,7 @@ import javax.swing.JOptionPane;
 
 /**
  * @author Machi
+ * low level derived class that implements readMessage method
  */
 public class GuiInputStrategy implements InputStrategy {
     

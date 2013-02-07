@@ -2,6 +2,8 @@ package dippractice;
 
 /**
  * @author Machi
+ * 
+ * low level derived class that implements outputMessage method
  */
 public class ConsoleOutputStrategy implements OutputStrategy {
     

@@ -4,6 +4,7 @@ import java.util.Scanner;
 
 /**
  * @author Machi
+ * low level derived class that implements readMessage method
  */
 public class ScannerInputStrategy implements InputStrategy {
 

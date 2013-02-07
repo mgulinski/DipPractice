@@ -6,7 +6,7 @@ package dippractice;
 public class MessageService {
 
    /* Message Service is a High Level Class
-    * that communicates 
+    * 
     */    
     private InputStrategy in;
     private OutputStrategy out;

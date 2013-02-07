@@ -4,6 +4,7 @@ import javax.swing.JOptionPane;
 
 /**
  * @author Machi
+ * low level derived class that implements outputMessage method
  */
 public class GuiOutputStrategy implements OutputStrategy {
     
