@@ -5,7 +5,9 @@ package dippractice;
  */
 public class MessageService {
 
-        
+   /* Message Service is a High Level Class
+    * that communicates 
+    */    
     private InputStrategy in;
     private OutputStrategy out;
 
@@ -17,7 +19,7 @@ public class MessageService {
     
     public void copyMessage() {
 	
-	String msg = in.getMessage();
+	String msg = in.readMessage();
 	out.outputMessage(msg);
     }
     

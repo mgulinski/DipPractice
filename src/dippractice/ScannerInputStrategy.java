@@ -6,17 +6,16 @@ import java.util.Scanner;
  * @author Machi
  */
 public class ScannerInputStrategy implements InputStrategy {
-    
-   
+
+    private String msg;
+
     @Override
-    public String getMessage() {
-    
-	Scanner input =  new Scanner(System.in);
-	
+    public String readMessage() {
+
 	System.out.print("Enter your message: ");
-	String msg = input.nextLine();
-	
-	return msg;
+
+	Scanner input = new Scanner(System.in);
+	return input.nextLine();
     }
-    
+
 }

@@ -9,11 +9,9 @@ public class GuiInputStrategy implements InputStrategy {
     
   
     @Override
-    public String getMessage() {
+    public String readMessage() {
 	
-	String input = JOptionPane.showInputDialog("Enter message: ");
-	String msg = input;
-       
+	String msg = JOptionPane.showInputDialog("Enter message: ");
 	return msg;
     }
     

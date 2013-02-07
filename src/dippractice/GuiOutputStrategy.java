@@ -10,8 +10,8 @@ public class GuiOutputStrategy implements OutputStrategy {
     @Override
     public void outputMessage(String msg) {
     
-	JOptionPane.showMessageDialog(null, msg);
-    
+	JOptionPane.showMessageDialog(null, "Your message is: " + msg);
+	
     }
     
 }
